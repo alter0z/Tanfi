@@ -1,0 +1,2 @@
+rootProject.name = "Tanfi"
+include ':app'

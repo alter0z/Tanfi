@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lightSty">#FFF</color>
+    <color name="mainBg">#F1F4F5</color>
+    <color name="darkSty">#2D323D</color>
+    <color name="text_field_20p">#575B64</color>
+    <color name="text_field_10p">#424751</color>
+    <color name="light_s_boldText">#4F565E</color>
+    <color name="light_medText">#6B7075</color>
+    <color name="light_regularText">#888F96</color>
+    <color name="dark_s_boldText">#FCFCFC</color>
+    <color name="dark_medText">#F9F9F9</color>
+    <color name="dark_regularText">#F1F4F5</color>
+    <color name="purplePrimary">#666FCC</color>
+    <color name="orangePrimary">#EE995B</color>
+    <color name="pinkPrimary">#EC7474</color>
+    <color name="purpleSec">#757DD1</color>
+    <color name="orangeSec">#F1AE7E</color>
+    <color name="pinkSec">#F09393</color>
+</resources>

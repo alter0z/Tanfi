@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorBackgroundFloating"
+    tools:context=".TaskDashboard">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_semi_bold"
+            android:textSize="18sp"
+            android:textColor="?attr/color"
+            android:text="@string/date"/>
+
+        <TextView
+            android:id="@+id/task"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/montserrat_medium"
+            android:textSize="18sp"
+            android:textColor="?attr/colorScheme"
+            android:text="@string/anda_tidak_memiliki_tugas_untuk_sekarang"/>
+        
+        <ImageView
+            android:layout_width="34dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_list"
+            android:contentDescription="@string/todo" />
+
+        <ImageView
+            android:layout_width="21dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="45dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_calendar"
+            android:contentDescription="@string/todo" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/category_task"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/user_task"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:padding="5dp"
+        app:elevation="500dp"
+        android:background="@drawable/card_bottom_nav"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_nav_menu">
+
+        <ImageView
+            android:id="@+id/add_task"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/ic_add_task"
+            android:contentDescription="@string/todo" />
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</RelativeLayout>

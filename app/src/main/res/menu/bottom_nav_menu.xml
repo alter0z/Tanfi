@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/anchor"
+        android:title=""/>
+
+    <item android:id="@+id/task"
+        android:title="@string/tugas"
+        android:icon="@drawable/ic_unselected_task"/>
+
+    <item android:id="@+id/finance"
+        android:title="@string/keuangan"
+        android:icon="@drawable/ic_unselected_finance"/>
+
+    <item android:id="@+id/more"
+        android:title="@string/lainnya"
+        android:icon="@drawable/ic_unselected_more"/>
+
+</menu>

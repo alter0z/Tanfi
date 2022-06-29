@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Tanfi" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purplePrimary</item>
+        <item name="colorPrimaryVariant">@color/orangePrimary</item>
+        <item name="colorOnPrimary">@color/pinkPrimary</item>
+        <item name="colorAccent">@color/darkSty</item>
+        <item name="color">@color/dark_s_boldText</item>
+        <item name="colorScheme">@color/dark_medText</item>
+        <item name="colorError">@color/dark_regularText</item>
+        <item name="colorBackgroundFloating">@color/text_field_10p</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/purpleSec</item>
+        <item name="colorSecondaryVariant">@color/orangeSec</item>
+        <item name="colorOnSecondary">@color/pinkSec</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorBackgroundFloating</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAnimationStyle">@style/transitionAnimation</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="transitionAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+
+    <style name="Theme.Tanfi.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Tanfi.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

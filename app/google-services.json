@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "330958456449",
+    "project_id": "tanfi-b31f9",
+    "storage_bucket": "tanfi-b31f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330958456449:android:0c6f0f81aa3d8f6c57ef80",
+        "android_client_info": {
+          "package_name": "com.gmastik.tanfi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "330958456449-v716tgskb7kj8qk8ncr7r1qr2alei38t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1449SgG6pJn62QJMliEn7SgLC8LBt3hc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "330958456449-v716tgskb7kj8qk8ncr7r1qr2alei38t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
