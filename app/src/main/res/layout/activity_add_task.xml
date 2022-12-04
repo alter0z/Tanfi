@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/colorControlNormal"
+    tools:context=".AddTask">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_line"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/todo" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_x"
+            android:contentDescription="@string/todo"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tipe_tugas"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="?attr/color"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/task_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:text="@string/daily"
+                android:fontFamily="@font/montserrat_regular"
+                android:textColor="?attr/color"
+                android:textSize="14sp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_light_line"
+                android:contentDescription="@string/todo"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/judul"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="?attr/colorScheme"
+                android:textSize="16sp"/>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/daily_task_title"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/input_transparent"
+                android:fontFamily="@font/montserrat_regular"
+                android:textColor="?attr/colorError"
+                android:textColorHint="?attr/colorError"
+                android:textSize="14sp"
+                android:hint="@string/task_title"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_tags"
+                android:contentDescription="@string/todo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:text="@string/tags_tugas"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="?attr/colorScheme"
+                android:textSize="16sp"/>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/task_tag"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/input_transparent"
+                android:fontFamily="@font/montserrat_regular"
+                android:hint="@string/tags_grammar"
+                android:textColor="?attr/colorError"
+                android:textColorHint="?attr/colorError"
+                android:textSize="14sp" />
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="25dp"-->
+<!--                android:layout_marginStart="35dp"-->
+<!--                android:text="@string/tag"-->
+<!--                android:fontFamily="@font/montserrat_regular"-->
+<!--                android:textColor="?attr/colorError"-->
+<!--                android:textSize="14sp"/>-->
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/ic_desc"
+                android:contentDescription="@string/todo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:text="@string/desc"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="?attr/colorScheme"
+                android:textSize="16sp"/>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/desc"
+                android:layout_width="match_parent"
+                android:layout_marginStart="35dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/input_transparent"
+                android:fontFamily="@font/montserrat_regular"
+                android:textColor="?attr/colorError"
+                android:textColorHint="?attr/colorError"
+                android:textSize="14sp"
+                android:hint="@string/task_desc"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_light_line"
+                android:contentDescription="@string/todo"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/begin_time_set"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginStart="100dp"
+                android:src="@drawable/ic_carbon_time"
+                android:contentDescription="@string/todo"/>
+
+            <ImageView
+                android:id="@+id/end_time_set"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginStart="220dp"
+                android:src="@drawable/ic_carbon_time"
+                android:contentDescription="@string/todo"/>
+
+            <ImageView
+                android:id="@+id/add_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/ic_time"
+                android:contentDescription="@string/todo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/waktu"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="?attr/colorScheme"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/times"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="25dp"
+                android:text="@string/add_date"
+                android:fontFamily="@font/montserrat_regular"
+                android:textColor="?attr/colorScheme"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/time_begin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="130dp"
+                android:text="@string/begin"
+                android:fontFamily="@font/montserrat_regular"
+                android:textColor="?attr/colorScheme"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/time_end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="250dp"
+                android:text="@string/jam_berakhir"
+                android:fontFamily="@font/montserrat_regular"
+                android:textColor="?attr/colorScheme"
+                android:textSize="14sp"/>
+
+        </RelativeLayout>
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="20dp">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="3dp"-->
+<!--                android:src="@drawable/ic_plus"-->
+<!--                android:contentDescription="@string/todo"/>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/add_subtask"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="30dp"-->
+<!--                android:text="@string/tambah_subtugas"-->
+<!--                android:fontFamily="@font/montserrat_medium"-->
+<!--                android:textColor="?attr/colorScheme"-->
+<!--                android:textSize="16sp"/>-->
+
+<!--        </RelativeLayout>-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/save_daily_task"
+                android:layout_width="190dp"
+                android:layout_height="52dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/login_button"
+                android:text="@string/save"
+                android:fontFamily="@font/montserrat_semi_bold"
+                android:textSize="20sp"
+                android:textColor="@color/lightSty"
+                android:textAllCaps="false" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="188dp"
+    android:height="257dp"
+    android:viewportWidth="188"
+    android:viewportHeight="257">
+  <group>
+    <clip-path
+        android:pathData="M0.5,0h187v257h-187z"/>
+    <path
+        android:pathData="M171.985,257H16.015C7.437,257 0.5,249.955 0.5,241.336V36.5C0.5,27.881 7.437,20.911 16.015,20.911H171.985C180.563,20.911 187.5,27.881 187.5,36.5V241.336C187.5,249.955 180.563,257 171.985,257Z"
+        android:fillColor="#9DA3D2"/>
+    <path
+        android:pathData="M177.729,257H10.271V55.687C10.271,47.892 16.537,41.597 24.295,41.597H163.631C171.388,41.597 177.654,47.892 177.654,55.687V257H177.729Z"
+        android:fillColor="?attr/colorBackgroundFloating"/>
+    <path
+        android:pathData="M122.158,10.418H114.55C114.55,4.647 109.851,0 104.182,0H83.893C78.149,0 73.525,4.647 73.525,10.418H65.842C60.098,10.418 55.474,15.065 55.474,20.836C55.474,26.607 60.098,31.254 65.842,31.254H122.084C127.827,31.254 132.452,26.607 132.452,20.836C132.526,15.14 127.902,10.418 122.158,10.418ZM94.037,18.962C91.054,18.962 88.592,16.489 88.592,13.491C88.592,10.493 91.054,8.02 94.037,8.02C97.021,8.02 99.482,10.493 99.482,13.491C99.482,16.489 97.021,18.962 94.037,18.962Z"
+        android:fillColor="#8F94C9"/>
+    <path
+        android:pathData="M94.037,189.921C116.365,189.921 134.466,171.733 134.466,149.298C134.466,126.863 116.365,108.676 94.037,108.676C71.709,108.676 53.609,126.863 53.609,149.298C53.609,171.733 71.709,189.921 94.037,189.921Z"
+        android:strokeLineJoin="round"
+        android:strokeWidth="10.7125"
+        android:fillColor="#00000000"
+        android:strokeColor="#9DA3D2"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M73.003,148.624L84.713,163.764L114.923,134.683"
+        android:strokeLineJoin="round"
+        android:strokeWidth="10.7125"
+        android:fillColor="#00000000"
+        android:strokeColor="#9DA3D2"
+        android:strokeLineCap="round"/>
+  </group>
+</vector>

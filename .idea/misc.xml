@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Shou/AndroidStudioProjects/Tanfi.v2/app/src/main/res/drawable-mdpi/custome_radio.xml" value="0.36302083333333335" />
+        <entry key="..\:/Users/Shou/AndroidStudioProjects/Tanfi.v2/app/src/main/res/drawable-mdpi/ic_baseline_radio_button_checked_24.xml" value="0.36302083333333335" />
+        <entry key="..\:/Users/Shou/AndroidStudioProjects/Tanfi.v2/app/src/main/res/layout/activity_add_task.xml" value="0.22282608695652173" />
+        <entry key="..\:/Users/Shou/AndroidStudioProjects/Tanfi.v2/app/src/main/res/layout/activity_calendar.xml" value="0.22282608695652173" />
+        <entry key="..\:/Users/Shou/AndroidStudioProjects/Tanfi.v2/app/src/main/res/layout/activity_login.xml" value="0.2246376811594203" />
+        <entry key="..\:/Users/Shou/AndroidStudioProjects/Tanfi.v2/app/src/main/res/layout/activity_onboarding_screen.xml" value="0.23143115942028986" />
+        <entry key="..\:/Users/Shou/AndroidStudioProjects/Tanfi.v2/app/src/main/res/layout/activity_splash_screen.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Shou/AndroidStudioProjects/Tanfi.v2/app/src/main/res/layout/activity_task_dashboard.xml" value="0.22282608695652173" />
+        <entry key="..\:/Users/Shou/AndroidStudioProjects/Tanfi.v2/app/src/main/res/layout/begin_time_picker.xml" value="0.22282608695652173" />
+        <entry key="..\:/Users/Shou/AndroidStudioProjects/Tanfi.v2/app/src/main/res/layout/calendar_show.xml" value="0.33" />
+        <entry key="..\:/Users/Shou/AndroidStudioProjects/Tanfi.v2/app/src/main/res/layout/fragment_task.xml" value="0.22282608695652173" />
+        <entry key="..\:/Users/Shou/AndroidStudioProjects/Tanfi.v2/app/src/main/res/layout/slider_layout.xml" value="0.23143115942028986" />
+        <entry key="app/src/main/res/drawable/input_transparent.xml" value="0.201" />
+        <entry key="app/src/main/res/layout/activity_add_task.xml" value="0.35104166666666664" />
+        <entry key="app/src/main/res/layout/activity_onboarding_screen.xml" value="0.35104166666666664" />
+        <entry key="app/src/main/res/layout/fragment_finance.xml" value="0.35104166666666664" />
+        <entry key="app/src/main/res/layout/fragment_task.xml" value="0.35104166666666664" />
+        <entry key="app/src/main/res/layout/slider_layout.xml" value="0.35104166666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
